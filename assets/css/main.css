@@ -246,7 +246,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #777;
+  color: #111111;
+  font-family : "Cormorant Garamond", serif;
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0;
@@ -1869,6 +1870,7 @@ header p {
 }
 
 header h2 + p {
+  font-family: 'Cormorant Garamond', serif; 
   font-size: 1.25em;
   margin-top: -0.5em;
   line-height: 1.5em;
@@ -3158,13 +3160,14 @@ input[type="button"]:disabled,
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #222;
-    color: #fff;
+    background: #111111;
+    color: #ffffff;
     min-width: 320px;
   }
 
   #titleBar .title {
     color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif; 
     display: block;
     font-weight: 700;
     height: 44px;
