@@ -231,11 +231,11 @@ b {
   font-weight: 700;
 }
 
-em,
-i {
-  font-style: italic;
-}
-
+em
+{
+  color : #666666;
+  font-family : 'IBM Plex Mono', monospace; 
+  font-weigth : 400} 
 p {
   margin: 0 0 2.25em 0;
 }
