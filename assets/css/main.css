@@ -2344,7 +2344,7 @@ ul.alt {
 }
 
 ul.alt li {
-  border-top: solid 2px #f4f4f4;
+  border-top: solid 2px #111111;
   padding: 0.5em 0;
 }
 
@@ -2915,7 +2915,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-  border-top: solid 2px #937663;
+  border-top: solid 2px #111111;
   display: block;
   padding: 0;
 }
@@ -2951,7 +2951,7 @@ input[type="button"]:disabled,
 /* Main */
 
 #main > section {
-  border-top: solid 6px #f4f4f4;
+  border-top: solid 6px #111111;
 }
 
 #main > section > .container {
@@ -2967,7 +2967,7 @@ input[type="button"]:disabled,
 #footer {
   background: #fafafa;
   border-top: 0;
-  color: #666666;
+  color: #111111;
   overflow: hidden;
   padding: 4em 0 2em 0;
 }
@@ -2979,7 +2979,7 @@ input[type="button"]:disabled,
 }
 
 #footer .copyright li {
-  border-left: solid 1px #d4d4d4;
+  border-left: solid 1px #ffffff;
   display: inline-block;
   font-size: 0.8em;
   margin-left: 1em;
@@ -2993,7 +2993,7 @@ input[type="button"]:disabled,
 }
 
 #footer .copyright li a {
-  color: inherit;
+  color: #FFFFFF;
 }
 
 /* XLarge */
