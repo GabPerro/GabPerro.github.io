@@ -2951,7 +2951,7 @@ input[type="button"]:disabled,
 /* Main */
 
 #main > section {
-  border-top: solid 6px #111111;
+  border-top: solid 3px #111111;
 }
 
 #main > section > .container {
@@ -2993,7 +2993,7 @@ input[type="button"]:disabled,
 }
 
 #footer .copyright li a {
-  color: #FFFFFF;
+  color: ffffff;
 }
 
 /* XLarge */
