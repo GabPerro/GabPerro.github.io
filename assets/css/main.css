@@ -319,9 +319,9 @@ blockquote {
 }
 
 code {
-  background: #555;
+  background: #FFFFFF;
   border-radius: 5px;
-  color: #fff;
+  color: #111111;
   font-family: "Source Code Pro", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
