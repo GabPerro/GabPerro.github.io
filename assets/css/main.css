@@ -2815,8 +2815,8 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #b8947c;
-  color: #eadfd8;
+  background: #ffffff;
+  color: #111111;
   height: 100%;
   overflow-y: auto;
   position: fixed;
