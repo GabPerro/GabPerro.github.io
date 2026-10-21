@@ -34,6 +34,9 @@ Couleurs :
 7) Créer une nouvelle règle pour la photo en noir et blanc. 
 ### Révisions 
 Ici je marque les problèmes survenus après le push et le diagnostic. 
+ 1) Boutons, side pannel toujours colorés. 
+ 2) les lignes séparatrices sont devenus blanche
+ 3) La bannière au dessus demeure noire. 
 ## 2. Structure 
 1) Enlever la grosse image de background. 
 2) Ajouter le portrait de moi à côté du premier paragraphe. 
