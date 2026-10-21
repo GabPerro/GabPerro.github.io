@@ -235,7 +235,8 @@ em
 {
   color : #666666;
   font-family : 'IBM Plex Mono', monospace; 
-  font-weigth : 400} 
+  font-weight: 400; 
+} 
 p {
   margin: 0 0 2.25em 0;
 }
@@ -3208,8 +3209,8 @@ input[type="button"]:disabled,
   }
 
   #titleBar .toggle:before {
-    background: #;
-    color: #ffffff;
+    background: #ffffff;
+    color: #111111;
     content: "\f0c9";
     display: block;
     font-size: 18px;
