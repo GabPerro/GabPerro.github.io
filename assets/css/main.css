@@ -195,7 +195,7 @@ body,
 input,
 select,
 textarea {
-  color: #888;
+  color: #111111;
   font-family: "Cormorant Garamond", serif;
   font-size: 16pt;
   font-weight: 400;
@@ -222,12 +222,12 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #b8947c !important;
+  color: #111111 !important;
 }
 
 strong,
 b {
-  color: #777;
+  color: #111111;
   font-weight: 700;
 }
 
