@@ -60,3 +60,4 @@ Des trucs que je suis pas à l'aise de faire encore :
 3) Avoir une section ou je présente un projet du bacc (pdf) ou code R. 
 4) Avoir un bouton qui switch anglais français. 
 
+# CV
