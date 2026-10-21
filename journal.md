@@ -23,3 +23,13 @@ Couleurs :
    - CV : avec onglet quarto pour le pdf. 
    - Comment me joindre avec trois boutons : Linkedin, Facebook, Email. 
    - Side pannel : pas de photo, juste « Navigation» avec boutons vers chaque section + icones de réseaux sociaux. 
+# Vagues de modification : 
+## 1. Style
+### main.css
+1) Importer les polices d'écriture Cormorant Garamond, IBM Plex Sans et IBM Plex mono de google fonts. 
+2) Trouver les règles et remplacer les polices d'écriture et leur couleur. 
+3) Changer les couleurs de la page principale vers le blanc. 
+4) Changer la couleur des lignes séparatrices. 
+5) Importer les icones correspondants pour la section compétence. Changer leur couleur 
+6) Changer la couleur des boutons
+7) Créer une nouvelle règle pour la photo en noir et blanc. 
