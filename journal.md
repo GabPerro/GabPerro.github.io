@@ -32,6 +32,8 @@ Couleurs :
 5) Importer les icones correspondants pour la section compétence. Changer leur couleur 
 6) Changer la couleur des boutons
 7) Créer une nouvelle règle pour la photo en noir et blanc. 
+### Révisions 
+Ici je marque les problèmes survenus après le push et le diagnostic. 
 ## 2. Structure 
 1) Enlever la grosse image de background. 
 2) Ajouter le portrait de moi à côté du premier paragraphe. 
@@ -40,14 +42,17 @@ Couleurs :
 5) Ajouter les trois boutons dans me joindre. 
 6) Faire correspondre bouton du side pannel avec bonnes sections. 
 7) Ajouter cv imbedded dans la section CV avec quarto. 
+### Révisions
 ## 3. Contenu 
 1) Remplacer les informations et le contenu. 
 2) Changer le dessus du site pannel pour juste *Navigation* 
 3) Lier les boutons contact aux bonnes affaires. 
-
+### Révisions 
+Ici je marque les problèmes survenus après le push et le diagnostic. 
 ## Modifications pour la deuxième version 
 Des trucs que je suis pas à l'aise de faire encore : 
 1) Faire en sorte que le side pannel demeure toujours collapsable 
 2) Faire en sorte que la bannière au dessus demeure toujours. Avoir des boutons la aussi vers les sections. 
 3) Avoir une section ou je présente un projet du bacc (pdf) ou code R. 
 4) Avoir un bouton qui switch anglais français. 
+
