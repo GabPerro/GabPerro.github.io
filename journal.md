@@ -25,7 +25,6 @@ Couleurs :
    - Side pannel : pas de photo, juste « Navigation» avec boutons vers chaque section + icones de réseaux sociaux. 
 # Vagues de modification : 
 ## 1. Style
-### main.css
 1) Importer les polices d'écriture Cormorant Garamond, IBM Plex Sans et IBM Plex mono de google fonts. 
 2) Trouver les règles et remplacer les polices d'écriture et leur couleur. 
 3) Changer les couleurs de la page principale vers le blanc. 
@@ -33,3 +32,22 @@ Couleurs :
 5) Importer les icones correspondants pour la section compétence. Changer leur couleur 
 6) Changer la couleur des boutons
 7) Créer une nouvelle règle pour la photo en noir et blanc. 
+## 2. Structure 
+1) Enlever la grosse image de background. 
+2) Ajouter le portrait de moi à côté du premier paragraphe. 
+3) Remplacer le titre des sections
+4) Ajouter la section intérêt de recherche entre intro et mes compétences. 
+5) Ajouter les trois boutons dans me joindre. 
+6) Faire correspondre bouton du side pannel avec bonnes sections. 
+7) Ajouter cv imbedded dans la section CV avec quarto. 
+## 3. Contenu 
+1) Remplacer les informations et le contenu. 
+2) Changer le dessus du site pannel pour juste *Navigation* 
+3) Lier les boutons contact aux bonnes affaires. 
+
+## Modifications pour la deuxième version 
+Des trucs que je suis pas à l'aise de faire encore : 
+1) Faire en sorte que le side pannel demeure toujours collapsable 
+2) Faire en sorte que la bannière au dessus demeure toujours. Avoir des boutons la aussi vers les sections. 
+3) Avoir une section ou je présente un projet du bacc (pdf) ou code R. 
+4) Avoir un bouton qui switch anglais français. 
