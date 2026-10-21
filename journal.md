@@ -1,1 +1,3 @@
 # Log de développement #
+Après beaucoup de pratique avec le template, où j'ai exploré, modifié etc. avec Codex et ChatGPT le template, j'ai tout effacé et recommencé afin de faire mon site web selon les règles de l'art. Je pense notamment à mes commits -m qui étaient vraiment pas spécifique, à des modifications que j'ai fait que j'ai pas compris. Ce fichier .md va servir de log pour les vagues de modification. 
+Note : ChatGPT n'a servi qu'au brainstorm et j'ai utilisé Codex pour m'aider à localiser les règles du main.css. 
