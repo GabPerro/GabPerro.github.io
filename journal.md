@@ -26,7 +26,7 @@ Couleurs :
 # Vagues de modification : 
 ## 1. Style
 1) Importer les polices d'écriture Cormorant Garamond, IBM Plex Sans et IBM Plex mono de google fonts. 
-2) Trouver les règles et remplacer les polices d'écriture et leur couleur. 
+2) Trouver les règles et remplacer les polices d'écriture et leur couleur ()
 3) Changer les couleurs de la page principale vers le blanc. 
 4) Changer la couleur des lignes séparatrices. 
 5) Importer les icones correspondants pour la section compétence. Changer leur couleur 
