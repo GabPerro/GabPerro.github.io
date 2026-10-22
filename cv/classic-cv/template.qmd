@@ -1,0 +1,118 @@
+---
+author: Gabriel Perreault 
+title: Étudiant en science politique à l'Université Laval
+format:
+  classic-cv-pdf: default
+cvfooter:
+  left: "mr.schochastics.net"
+  right: "github.com/schochastics"
+cvcolor: 58748F #without `#`
+cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
+cvmeta:
+  - title: 
+    left: Étudiant à la maîtrise en science politique à l'Université Laval
+    right: Québec, QC, Canada
+  - title: 
+    left: Nationalisme, extrême droite, radicalisation, politique québécoise 
+    right: https://gabperro.github.io/
+  - title: Affilié à
+    left: Chaire sur la démocratie et les institutions parlementaires
+    right: gabrielperreault.4@ulaval.ca
+execute:
+  echo: false
+---
+
+```{r}
+#| label: cvevents
+cvevents <- function(tbl, when, what, where, details) {
+
+    command_start <- "\\cvevent"
+
+    res <- paste0(
+        command_start, "{", tbl[[when]], "}", 
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}")
+    
+    tbl[[details]] <- sapply(tbl[[details]], function(x) paste0("{", x, "}", collapse = ","))
+    res <- paste0(res, "{",tbl[[details]],"}")
+
+    cat(res, sep = "\n")
+}
+```
+
+# Introduction
+Après des études collégiales en médias, durant lesquelles j'ai notamment développé des compétences en communication et en informatique, j'ai entamé un baccalauréat en science politique, dont j'ai été diplômé avec une mention d'honneur et une moyenne de 3,78. Durant ce baccalauréat, j'ai également effectué un échange à l'Université de Mannheim, l'une des meilleures universités d'Allemagne et d'Europe en matière d'analyse quantitative en science politique. Le baccalauréat, qui m'a permis d'approfondir mes connaissances dans mes champs d'intérêt et en recherche, m'a donc mené à entamer une maîtrise en science politique à l'Université Laval, que j'effectue en tant qu'étudiant membre de la Chaire sur la démocratie et les institutions parlementaires.
+
+
+# Éducation
+
+```{r }
+#| label: education
+#| output: asis
+tibble::tribble(
+    ~degree, ~uni, ~loc, ~dates, ~details,
+  "Maîtrise avec mémoire en science politique", "Université Laval", "Université Laval", "2026 - aujourd'hui", c("Projet de recherche : Analyse discursive et multimodale des communications numériques d'un groupe nationaliste d'extrême droite", "Affiliation : Chaire sur la démocratie et les institutions parlementaires, Université Laval"),
+  "Baccalauréat en science politique", "Université Laval", "Université Laval", "2023-2026", c("Choix de cours : Méthodologie, communication et marketing politique, enjeux contemporains (environnement, émotions, relations internationales), violence politique, cours d'introduction en sociologie et en science des religions", "Langues : allemand élémentaire (A1.2), anglais avancé","Profil international : Échange universitaire à l'Universität Mannheim (automne 2025)"),
+  "DEC EN ARTS, LETTRES ET COMMUNICATION", "Cégep Limoilou", "Cégep Limoilou", "2021-2023", c("Profil : Créativité et médias")
+) |>
+    cvevents(when = "dates", what = "degree", where = "loc", details = "details")
+```
+
+# Expériences universitaires 
+
+
+```{r}
+#| label: experience
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details, ~tasks,
+    "Échange universitaire", "Universität Mannheim", "Automne 2025",
+    "Département de science politique", c("Séjour d'étude dans le cadre du profil international", "Cours suivis en anglais sur les conflits, les idéologies, l'identité politique et l'identité européenne", "Réalisation de travaux de session théoriques et méthodologiques."),
+    "Auxiliaire d'enseignement (correction)", "Université Laval", "Hiver 2025", "", c("Cours : POL-1010 (Structuration de la recherche)", "Correction d'examen", "Établissement d'une grille de correction et évaluation", "Communication fréquente avec le professeur afin d'assurer l'efficacité et la rigueur de la correction"),
+    "Auxiliaire d'enseignement (tutorat)", "Université Laval", "Automne 2024", "", c("Cours : POL-1010 (Structuration de la recherche)", "Animation de séances de tutorat", "Création de diapositives, recherche d'exemples, travail de synthétisation et de vulgarisation", "Soutien flexible et personnalisé aux étudiants")
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", details = "tasks")
+```
+
+\newpage
+# Travaux marquants 
+
+```{r}
+#| label: selected-works
+#| output: asis
+tibble::tribble(
+  ~title, ~context, ~dates, ~points,
+  "Term Paper",
+  "Cours : The Origins of Conflict and the Paths to Peace",
+  "Automne 2025",
+  c(
+    "Travail de recherche théorique consistant à appliquer la bargaining range theory aux actions du Front de libération du Québec dans l'analyse de leur usage rationnel de l'action violente à des fins de négociation",
+    "Conception d'un devis méthodologique mixte"
+  ),
+  "Le Visakha Bucha",
+  "Cours : Introduction à l'étude des religions (SCR-1000)",
+  "",
+  c(
+    "Note : 94 \\%",
+    "Réalisation d'un rapport de recherche documentaire de 16 pages sur le festival Visakha Bucha en Thaïlande",
+    "Analyse de plus de 30 sources scientifiques faisant la synthèse des dimensions historiques, doctrinales et rituelles d'un phénomène religieux contemporain"
+  ),
+  "Projet de recherche qualitatif",
+  "Cours : Méthodologie qualitative (POL-2001)",
+  "Hiver 2025",
+  c(
+    "Conception et réalisation d'une étude qualitative sur le rôle des institutions religieuses dans l'intégration des étudiants internationaux et des personnes issues de l'immigration",
+    "Réalisation d'observations participantes et de collectes de données ethnographiques lors de cérémonies religieuses",
+    "Analyse qualitative des interactions, des pratiques religieuses et des services liés à l'intégration",
+    "Rédaction d'un rapport de recherche collectif"
+  )
+) |> 
+  cvevents(
+    when = "dates",
+    what = "title",
+    where = "context",
+    details = "points"
+  )
+```
+
+
