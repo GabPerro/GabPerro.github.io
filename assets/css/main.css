@@ -3618,13 +3618,6 @@ input[type="button"]:disabled,
   font-size: 0.75rem;
   font-weight: 400;
 }
-.research-interests li p{
-  margin: 0;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.75rem; 
-  font-weight: 600; 
-  line-height: 1.25;
-}
 .research-interests li {
   padding: 1.25rem 0 1.25rem 0.5rem;
 }
@@ -3687,6 +3680,10 @@ input[type="button"]:disabled,
 .boite-content {
   padding: 1rem 18px; 
 }
-.boite-content p{
+.research-interests .boite-content p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
   margin: 0;
 }
