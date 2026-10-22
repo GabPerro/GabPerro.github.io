@@ -153,9 +153,15 @@
 			}
 		});
 //Active 
-$('.boites').addClass('active');
-$('.boites').on('click', function() {
-	$(this).toggleClass('active');
-});
-}
+$('.boites').on('click', function()) {
+	var $button = $(this);
+	var $content = $('#' + $button.attr('aria-controls'));
+	var isOpen = $button.attr('aria-expanded') === 'true';
+
+	$button
+	.toggleClass('active', !isOpen)
+	.attr('aria-expanded', String(!isOpen));
+
+	$content.prop('hidden', isOpen);
+}); 
 })(jQuery);

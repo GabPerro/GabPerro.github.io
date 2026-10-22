@@ -3667,6 +3667,11 @@ input[type="button"]:disabled,
 .boites{
   background-color: #FFFFFF;
   color : #111111;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.75rem; 
+  font-weight: 600; 
+  line-height: 1.25
   cursor : pointer; 
   padding : 18px ; 
   width: 100%; 
@@ -3678,4 +3683,10 @@ input[type="button"]:disabled,
 
 .boites.active {
   background-color: #FFFFFF
+}
+.boite-content {
+  padding: 1rem 18px; 
+}
+.boite-content p{
+  margin: 0;
 }
