@@ -3806,3 +3806,21 @@ ol li::marker,
   border-bottom : 1px solid #666666
   padding-bottom : 0.5rem; 
 }
+
+.boites { 
+  align-items : center; 
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.boites::after {
+  content: "+"; 
+  color : #111111; 
+  flex-shrink: 0; 
+  font-family : "IBM Plex Mono", monospace; 
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.boites.active::after {
+  content: "-"; 
+}
