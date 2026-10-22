@@ -3744,6 +3744,10 @@ header.major h1 {
   font-size: 3rem;
 }
 
+#one header.major h1 {
+  text-align: center;
+}
+
 header.major h2 {
   font-size: 1.5rem;
 }
@@ -3792,4 +3796,7 @@ ol li::marker,
   .boites {
     font-size: 1.5rem;
   }
+}
+# one header.major h1{
+  text-align: center; 
 }
