@@ -3623,7 +3623,7 @@ input[type="button"]:disabled,
 }
 
 .research-interests li + li {
-  border-top: 1px solid #777777;
+  border-top: 1px solid #cccccc;
 }
 #titleBar .title {
   align-items : baseline; 
@@ -3685,4 +3685,111 @@ input[type="button"]:disabled,
   font-weight: 400;
   line-height: 1.6;
   margin: 0;
+}
+
+/* Typography system */
+body,
+input,
+select,
+textarea,
+button {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+p,
+li {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+header.major h1 {
+  font-size: 3rem;
+}
+
+header.major h2 {
+  font-size: 1.5rem;
+}
+
+#header > header h1 {
+  font-size: 1.25rem;
+}
+
+.boites {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+footer,
+footer li,
+footer a,
+#footer,
+#footer li,
+#footer a,
+#header > footer,
+#footer .copyright {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+ol li::marker,
+.research-interests li::marker {
+  color: #777777;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+  header.major h1 {
+    font-size: 2.25rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2,
+  .boites {
+    font-size: 1.5rem;
+  }
 }
