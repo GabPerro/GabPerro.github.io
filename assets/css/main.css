@@ -2774,6 +2774,9 @@ input[type="button"]:disabled,
 .intro p { 
   flex: 1;
 }
+.intro h1 {
+  flex : 1;
+}
 
 .intro img {
   width : 200 px; 
