@@ -3599,3 +3599,29 @@ input[type="button"]:disabled,
 <i class="fas fa-language"></i>
 <i class = "fas fa-discourse"></i>
 <i class="fab fa-discourse"></i>
+
+.research-interests {
+  margin: 0; 
+  padding-left : 2.5rem; 
+}
+
+.research-interests li{
+  border-top: 1px solid #77777; 
+  padding: 1.25rem 0 1.25rem 0.5rem;
+}
+.research-iterests li:last-child{
+  border-bottom: 1px solid #cccccc;
+}
+.research-iterests li::marker {
+  color: #777777
+  font-family: "IBM Plex Mono", monospace; 
+  font-size: 0.75re;
+  font-weight: 400;
+}
+.research-interests li p{
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.75rem; 
+  font-weight: 600; 
+  line-height: 1.25;
+}
