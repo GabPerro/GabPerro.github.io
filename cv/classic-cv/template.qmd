@@ -17,7 +17,7 @@ cvmeta:
     right: https://gabperro.github.io/
   - title: Affilié à
     left: Chaire sur la démocratie et les institutions parlementaires
-    right: gabrielperreault.4@ulaval.ca
+    right: gabriel.perreault.4@ulaval.ca
 execute:
   echo: false
 ---
