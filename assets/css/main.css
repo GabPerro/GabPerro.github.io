@@ -2328,7 +2328,11 @@ ol {
 ol li {
   padding-left: 0.25em;
 }
-
+ol li::marker {
+  font-family: "IBM Plex Mono", monospace; 
+  font-weight : 700
+  color : #666666
+}
 ul {
   list-style: disc;
   margin: 0 0 2.25em 0;
