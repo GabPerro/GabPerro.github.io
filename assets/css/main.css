@@ -2300,7 +2300,8 @@ input[type="radio"] + label:before {
   overflow: hidden;
 }
 
-.image.avatar img {
+.image.avatar img {<
+  float : left;
   border-radius: 100%;
   display: block;
   width: 100%;
