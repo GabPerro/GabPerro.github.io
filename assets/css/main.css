@@ -3834,3 +3834,43 @@ ol li::marker,
   padding-bottom: 0.4rem;
   border-bottom: 1px solid;
 }
+.work-list{
+  margin : 0; 
+  padding-left : 2.5rem; 
+}
+.work-list > li{ 
+  border-top: 1px solid #111
+  padding: 1.5rem 0 1.75rem 0.5rem;
+}
+.work-list > li:last-child {
+  border-bottom: 1px solid #111111
+}
+.work-list > li::marker{
+  color: #7777777
+  font-family: "IBM Plex Mono", monospace; 
+  font-size : 0.75rem; 
+}
+
+.work.item h2{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5rem; 
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+.work-meta{
+  color:#777777
+  font-family: "IBM Plex Mono", monospace; 
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.work-item > p:not(.work-meta) {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.work-link {
+  border-bottom: 1px solid #111111;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
