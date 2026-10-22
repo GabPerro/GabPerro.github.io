@@ -2771,16 +2771,14 @@ input[type="button"]:disabled,
   align-items : flex-start ; 
   gap : 20px;
 }
-.intro p { 
+.intro-text { 
   flex: 1;
-}
-.intro h1, .intro h2{
-  flex : 1;
 }
 
 .intro img {
   width : 200px; 
   height: auto; 
+  flex-shrink: 0;
 }
 @media (max-width : 600px) {
   .intro {
