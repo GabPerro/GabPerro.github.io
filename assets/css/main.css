@@ -3798,5 +3798,11 @@ ol li::marker,
   }
 }
 # one header.major h1{
+  display : table;
+  width : fit-content;
+  margin-left : auto;
+  margin-righ: auto; 
   text-align: center; 
+  border-bottom : 1px solid #666666
+  padding-bottom : 0.5rem; 
 }
