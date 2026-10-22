@@ -2771,6 +2771,15 @@ input[type="button"]:disabled,
   align-items : flex-start ; 
   gap : 20 px;
 }
+.intro p { 
+  flex: 1;
+}
+
+.intro img {
+  width : 200 px; 
+  height: auto; 
+}
+
 /* Features */
 
 .features article {
