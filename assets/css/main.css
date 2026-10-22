@@ -3638,4 +3638,21 @@ input[type="button"]:disabled,
   font-weight: 400;
   line-height: 1;
 }
-@media 
+@media screen and (max-width : 600px) {
+  #titleBar .title {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    line-height: 1.1;
+  }
+#titleBar .title > a {
+  font-size : 0.9rem;
+  line-height: 1.2;
+}
+
+#titleBar .subtitle {
+  font-size: 0.55rem;
+  line-height: 1.2;
+}
+}
