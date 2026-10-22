@@ -153,5 +153,9 @@
 			}
 		});
 //Active 
-$('boites').addClass('active');
+$('.boites').addClass('active');
+$('.boites').on('click', function() {
+	$(this).toggleClass('active');
+});
+}
 })(jQuery);
