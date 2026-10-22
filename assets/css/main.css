@@ -3671,7 +3671,7 @@ input[type="button"]:disabled,
   font-family: "Cormorant Garamond", serif;
   font-size: 1.75rem; 
   font-weight: 600; 
-  line-height: 1.25
+  line-height: 1.25;
   cursor : pointer; 
   padding : 18px ; 
   width: 100%; 
