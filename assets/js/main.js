@@ -153,7 +153,7 @@
 			}
 		});
 //Active 
-$('.boites').on('click', function()) {
+$('.boites').on('click', function() {
 	var $button = $(this);
 	var $content = $('#' + $button.attr('aria-controls'));
 	var isOpen = $button.attr('aria-expanded') === 'true';
