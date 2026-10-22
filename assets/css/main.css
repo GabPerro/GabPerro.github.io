@@ -2774,7 +2774,7 @@ input[type="button"]:disabled,
 .intro p { 
   flex: 1;
 }
-.intro h1 {
+.intro h1, h2{
   flex : 1;
 }
 
