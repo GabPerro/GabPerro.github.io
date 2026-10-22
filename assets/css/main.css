@@ -3665,8 +3665,8 @@ input[type="button"]:disabled,
 }
 
 .boites{
-  background-color: #FFFFFF
-  color : #111111
+  background-color: #FFFFFF;
+  color : #111111;
   cursor : pointer; 
   padding : 18px ; 
   width: 100%; 
@@ -3676,3 +3676,6 @@ input[type="button"]:disabled,
   font-size: 15px;
 }
 
+.boites.active {
+  background-color: #FFFFFF
+}
