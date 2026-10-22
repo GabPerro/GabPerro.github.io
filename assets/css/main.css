@@ -2769,17 +2769,17 @@ input[type="button"]:disabled,
 .intro {
   display : flex; 
   align-items : flex-start ; 
-  gap : 20 px;
+  gap : 20px;
 }
 .intro p { 
   flex: 1;
 }
-.intro h1, h2{
+.intro h1, intro.h2{
   flex : 1;
 }
 
 .intro img {
-  width : 200 px; 
+  width : 200px; 
   height: auto; 
 }
 @media (max-width : 600px) {
