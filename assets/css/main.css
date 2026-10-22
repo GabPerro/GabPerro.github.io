@@ -2765,7 +2765,12 @@ input[type="button"]:disabled,
   cursor: default;
   opacity: 0.25;
 }
-
+/* Intro*/
+.intro {
+  display : flex; 
+  align-items : flex-start ; 
+  gap : 20 px;
+}
 /* Features */
 
 .features article {
