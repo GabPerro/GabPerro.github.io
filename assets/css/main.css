@@ -3824,3 +3824,13 @@ ol li::marker,
 .boites.active::after {
   content: "-"; 
 }
+
+# one header.major { 
+  text-align : center;
+}
+#one header.major h1 {
+  display: inline-block; 
+  width: auto; 
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid
+}
