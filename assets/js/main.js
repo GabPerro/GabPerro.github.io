@@ -152,5 +152,6 @@
 				return $titleBar.height();
 			}
 		});
-
+//Active 
+$('boites').addClass('active');
 })(jQuery);
