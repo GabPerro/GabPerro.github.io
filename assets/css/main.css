@@ -3801,9 +3801,9 @@ ol li::marker,
   display : table;
   width : fit-content;
   margin-left : auto;
-  margin-righ: auto; 
+  margin-right: auto; 
   text-align: center; 
-  border-bottom : 1px solid #666666
+  border-bottom : 1px solid #666666;
   padding-bottom : 0.5rem; 
 }
 
@@ -3828,9 +3828,9 @@ ol li::marker,
 # one header.major { 
   text-align : center;
 }
-#one header.major h1 {
+# one header.major h1 {
   display: inline-block; 
   width: auto; 
   padding-bottom: 0.4rem;
-  border-bottom: 1px solid
+  border-bottom: 1px solid;
 }
