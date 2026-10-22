@@ -125,7 +125,8 @@
 			$titleBar = $(
 				'<div id="titleBar">' +
 					'<a href="#header" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span class - "subtitle">ÉTUDIANT EN SCIENCE POLITIQUE</span>' +
+					'<span class="title">' + $('#logo').html() +
+					'<span class="subtitle">Étudiant en science politique</span>' +
 					'</span>' +
 				'</div>'
 			)
