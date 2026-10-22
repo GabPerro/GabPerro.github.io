@@ -147,7 +147,7 @@
 		$('.scrolly').scrolly({
 			speed: 1000,
 			offset: function() {
-				return $titleBar.height()
+				return $titleBar.height();
 			}
 		});
 
