@@ -149,5 +149,6 @@
 			offset: function() {
 				return $titleBar.height()
 			}
+		});
 
 })(jQuery);
