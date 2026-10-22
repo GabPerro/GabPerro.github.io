@@ -3625,6 +3625,13 @@ input[type="button"]:disabled,
   font-weight: 600; 
   line-height: 1.25;
 }
+.research-interests li {
+  padding: 1.25rem 0 1.25rem 0.5rem;
+}
+
+.research-interests li + li {
+  border-top: 1px solid #777777;
+}
 #titleBar .title {
   align-items : baseline; 
   display : flex; 
