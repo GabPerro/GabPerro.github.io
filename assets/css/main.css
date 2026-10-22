@@ -3091,7 +3091,7 @@ input[type="button"]:disabled,
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen {}
   /* Basic */
 
   html,
