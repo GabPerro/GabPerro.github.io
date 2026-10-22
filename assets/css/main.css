@@ -2779,6 +2779,11 @@ input[type="button"]:disabled,
   width : 200 px; 
   height: auto; 
 }
+@media (max-width : 600px) {
+  .intro {
+    flex-direction : column;
+  }
+}
 
 /* Features */
 
