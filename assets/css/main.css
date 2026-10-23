@@ -3908,3 +3908,45 @@ ol li::marker,
     margin-top: 0.15rem;
   }
 }
+
+/* Travaux sélectionnés */
+
+.travaux-liste {
+    list-style: none;
+    padding: 0;
+    margin: 1.5em 0 2em;
+}
+
+.travaux-liste li {
+    padding: 1.2em 0;
+    border-bottom: 1px solid currentColor;
+}
+
+.travaux-liste li:first-child {
+    border-top: 1px solid currentColor;
+}
+
+.travaux-liste a {
+    display: inline-block;
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.travaux-liste a:hover {
+    text-decoration: underline;
+}
+
+.travaux-liste .description {
+    display: block;
+    margin-top: 0.35em;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.travaux-liste .date {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.85em;
+}
