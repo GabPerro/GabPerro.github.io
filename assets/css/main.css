@@ -2547,6 +2547,14 @@ ul.icons li .icon:before {
   font-size: 1.25em;
 }
 
+.contact-icons {
+  margin-top: 1.5rem;
+}
+
+.contact-icons li .icon:before {
+  font-size: 1.75rem;
+}
+
 /* Table */
 
 .table-wrapper {
@@ -2975,16 +2983,12 @@ input[type="button"]:disabled,
 
 /* Main */
 
-#main > section {
+#main > section + section {
   border-top: solid 3px #111111;
 }
 
 #main > section > .container {
   padding: 6em 0 4em 0;
-}
-
-#main > section:first-child {
-  border-top: 0;
 }
 
 /* Footer */
@@ -3748,6 +3752,14 @@ header.major h1 {
   text-align: center;
 }
 
+#one .profile-photo {
+  display: block;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  max-width: 100%;
+  width: 200px;
+}
+
 #one header.major h1 {
   border-bottom: 1px solid #666666;
   display: block;
@@ -3793,6 +3805,10 @@ ol li::marker,
 }
 
 @media screen and (max-width: 480px) {
+  #one .profile-photo {
+    width: 150px;
+  }
+
   header.major h1 {
     font-size: 2.25rem;
   }
@@ -3949,4 +3965,61 @@ ol li::marker,
     display: block;
     margin-top: 0.2em;
     font-size: 0.85em;
+}
+
+.travaux-liste .work-title,
+.travaux-liste .pdf-link {
+    display: block;
+}
+
+.travaux-liste .pdf-link {
+    margin-top: 0.6em;
+}
+.intro.boutons {
+  display : flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 8px;
+  margin-top: 22px; 
+  padding-top: 18px;
+  border-top: 1px solid #666666;
+}
+.intro.boutons a {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #666666;
+  border-radius : 4px;
+  color: #111111;
+  background: transparent;
+  text-decoration: none; 
+  font-size: 0.8rem;
+  line-height: 1.4;
+  transition: background-color 0.2s ease;
+}
+.intro.boutons a:hover,
+.intro.boutons a:focus-visible{
+  background: #ffffff;
+  color : #111111;
+}
+
+@media screen and (max-width : 736px) {
+  .intro.boutons {
+    gap: 6px;
+    margin-top: 16px;
+  }
+  .intro.boutons a {
+    padding: 7px 10px;
+    font-size: 0.75rem;
+  }
+}
+cv.button { 
+  display: inline-block; 
+  padding : 12px 24px;
+  background-color: #FFFFFF !important; 
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.cv-button:hover{
+  background-color: #666666;
 }
