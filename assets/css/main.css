@@ -3754,10 +3754,10 @@ header.major h1 {
 }
 
 #one header.major h1 {
-  border-bottom: 1px solid #666666;
+  border-bottom: 0;
   display: block;
-  margin: 0 auto 0.5625em;
-  padding-bottom: 0.4rem;
+  margin: 0 auto;
+  padding-bottom: 0;
   text-align: center;
   width: fit-content;
 }
@@ -3968,7 +3968,7 @@ ol li::marker,
 .travaux-liste .pdf-link {
     margin-top: 0.6em;
 }
-.intro.boutons {
+.profile-nav {
   border-bottom: 1px solid #666666;
   border-top: 1px solid #666666;
   display: flex;
@@ -3979,7 +3979,7 @@ ol li::marker,
   margin: 1.75rem 0 2rem;
   padding: 1rem 0;
 }
-.intro.boutons a {
+.profile-nav a {
   background: #111111;
   border: 1px solid #111111;
   border-radius: 4px;
@@ -3992,82 +3992,20 @@ ol li::marker,
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
-.intro.boutons a:hover,
-.intro.boutons a:focus-visible{
+.profile-nav a:hover,
+.profile-nav a:focus-visible {
   background: #ffffff;
   color: #111111 !important;
 }
 
-.competences-summary {
-  margin-top: 2.5rem;
-}
-
-.competency-icons {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  list-style: none;
-  margin: 1.5rem 0 0;
-  padding: 0;
-  text-align: center;
-}
-
-.competency-icons li {
-  margin: 0;
-  padding: 0 1rem;
-}
-
-.competency-icons .icon {
-  color: #111111;
-  display: block;
-  margin-bottom: 0.75rem;
-}
-
-.competency-icons .icon:before {
-  font-size: 2rem;
-}
-
-.competency-icons strong,
-.competency-icons li > span:last-child {
-  display: block;
-}
-
-.competency-icons strong {
-  font-family: "IBM Plex Mono", monospace;
-  margin-bottom: 0.35rem;
-}
-
-.competency-icons li > span:last-child {
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
 @media screen and (max-width : 736px) {
-  .intro.boutons {
+  .profile-nav {
     gap: 6px;
     margin-top: 16px;
   }
-  .intro.boutons a {
+  .profile-nav a {
     padding: 7px 10px;
     font-size: 0.75rem;
-  }
-
-  .competency-icons {
-    grid-template-columns: 1fr;
-    text-align: left;
-  }
-
-  .competency-icons li {
-    padding: 0;
-  }
-
-  .competency-icons .icon {
-    display: inline-block;
-    margin: 0 0.65rem 0 0;
-  }
-
-  .competency-icons strong {
-    display: inline-block;
   }
 }
 cv.button { 
