@@ -3757,7 +3757,7 @@ header.major h1 {
   height: auto;
   margin: 0 auto 1.5rem;
   max-width: 100%;
-  width: 200px;
+  width: 140px !important;
 }
 
 #one header.major h1 {
@@ -3806,7 +3806,7 @@ ol li::marker,
 
 @media screen and (max-width: 480px) {
   #one .profile-photo {
-    width: 150px;
+    width: 110px !important;
   }
 
   header.major h1 {
